@@ -21,7 +21,7 @@ export default function FoodReviewPage() {
 
       <Rating size="lg" />
       <Textarea
-        label="Your Review"
+        label="Your review"
         placeholder="Do you enjoy eating?"
         mt="xs"
         minRows={3}
@@ -49,7 +49,7 @@ export default function FoodReviewPage() {
         My favourite part is pepperoni
       </Text>
       <Pagination mt="sm" position="center" color="orange" total={20} />
-      <Text align="center" color="dimmed" my="sm">
+      <Text align="center" color="dimmed" my="md">
         Copyright © 2023 Ronnachai Sitthichoksathit 650612098
       </Text>
     </Container>
